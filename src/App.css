@@ -1,0 +1,76 @@
+/* App.css */
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #1F232A; /* Fondo oscuro */
+  color: #FFFFFF;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+h1 {
+  color: #60DAFB; /* Color principal */
+  text-align: center;
+}
+
+.container {
+  background-color: #FFFFFF;
+  color: #1F232A;
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 400px;
+  width: 100%;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"] {
+  width: calc(100% - 90px);
+  padding: 8px;
+  margin-right: 10px;
+  border: 1px solid #1F232A;
+  border-radius: 4px;
+}
+
+button {
+  padding: 8px 12px;
+  background-color: #60DAFB; /* Color principal */
+  color: #1F232A;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #4FB8D6; /* Un tono ligeramente más oscuro al pasar el ratón */
+}
+
+.tarea-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  border-bottom: 1px solid #1F232A;
+}
+
+.tarea-item:last-child {
+  border-bottom: none;
+}
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.tarea-nombre {
+  flex-grow: 1;
+}
+
+.tarea-completada {
+  text-decoration: line-through;
+  color: #888;
+}
+
+ 
